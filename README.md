@@ -1,15 +1,27 @@
-# ABKeyboardAccessory
+<p align="center">
+  <img src="https://github.com/AndrewBoryk/ABKeyboardAccessory/blob/master/ABKeyboardAccessoryLogo.png" alt="ABKeyboardAccessory custom logo"/>
+</p>
 
-[![CI Status](http://img.shields.io/travis/andrewboryk/ABKeyboardAccessory.svg?style=flat)](https://travis-ci.org/andrewboryk/ABKeyboardAccessory)
 [![Version](https://img.shields.io/cocoapods/v/ABKeyboardAccessory.svg?style=flat)](http://cocoapods.org/pods/ABKeyboardAccessory)
 [![License](https://img.shields.io/cocoapods/l/ABKeyboardAccessory.svg?style=flat)](http://cocoapods.org/pods/ABKeyboardAccessory)
 [![Platform](https://img.shields.io/cocoapods/p/ABKeyboardAccessory.svg?style=flat)](http://cocoapods.org/pods/ABKeyboardAccessory)
+
+## Screenshots
+
+![alt tag](ABKeyboardAccessoryScreenshot.gif)
+
+## Description
+
+ABKeyboardAccessory makes it easier to determine when a keyboard is being shown/dismissed for UITextViews and UITextFields. ABKeyboardAccessory subclasses UIView, and is implemented by setting the ABKeyboardView as the 'inputAccessory' for the desired UITextView/UITextField. ABKeyboardAccesoryDelegate provides methods which relay information about the current frame of the ABKeyboardAccessory view, where one can adjust UI depending on the keyboard appearance.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* Requires iOS 8.0 or later
+* Requires Automatic Reference Counting (ARC)
 
 ## Installation
 
@@ -22,7 +34,7 @@ pod "ABKeyboardAccessory"
 
 ## Author
 
-andrewboryk, aboryk@mercymavericks.edu
+andrewboryk, andrewcboryk@gmail.com
 
 ## License
 
