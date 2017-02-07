@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ABKeyboardAccessory'
   s.version          = '0.1.0'
-  s.summary          = 'UIView subclass which can be used as an 'inputAccessory', with delegate methods for determining keyboard appearance and disappearance.'
+  s.summary          = 'UIView subclass which can be used as an inputAccessory, with delegate methods for determining keyboard appearance and disappearance.'
 
   s.description      = <<-DESC
 ABKeyboardAccessory makes it easier to determine when a keyboard is being shown/dismissed for UITextViews and UITextFields. ABKeyboardAccessory subclasses UIView, and is implemented by setting the ABKeyboardView as the 'inputAccessory' for the desired UITextView/UITextField. ABKeyboardAccesoryDelegate provides methods which relay information about the current frame of the ABKeyboardAccessory view, where one can adjust UI depending on the keyboard appearance.
