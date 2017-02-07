@@ -1,0 +1,6 @@
+framework module ABKeyboardAccessory {
+  umbrella header "ABKeyboardAccessory-umbrella.h"
+
+  export *
+  module * { export * }
+}

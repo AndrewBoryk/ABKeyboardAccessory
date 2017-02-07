@@ -1,0 +1,22 @@
+{
+  "name": "ABKeyboardAccessory",
+  "version": "0.1.0",
+  "summary": "A short description of ABKeyboardAccessory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andrewboryk/ABKeyboardAccessory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andrewboryk": "aboryk@mercymavericks.edu"
+  },
+  "source": {
+    "git": "https://github.com/andrewboryk/ABKeyboardAccessory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ABKeyboardAccessory/Classes/**/*"
+}

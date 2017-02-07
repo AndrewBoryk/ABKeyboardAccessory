@@ -1,0 +1,16 @@
+PODS:
+  - ABKeyboardAccessory (0.1.0)
+
+DEPENDENCIES:
+  - ABKeyboardAccessory (from `../`)
+
+EXTERNAL SOURCES:
+  ABKeyboardAccessory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABKeyboardAccessory: d8a4c4eaed2363e4274605e97c167307cc1ddd5e
+
+PODFILE CHECKSUM: 0a46dd5d2a97752e25184d3ecf52c5c4621abba0
+
+COCOAPODS: 1.2.0
