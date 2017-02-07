@@ -9,24 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = 'ABKeyboardAccessory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ABKeyboardAccessory.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'UIView subclass which can be used as an 'inputAccessory', with delegate methods for determining keyboard appearance and disappearance.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ABKeyboardAccessory makes it easier to determine when a keyboard is being shown/dismissed for UITextViews and UITextFields. ABKeyboardAccessory subclasses UIView, and is implemented by setting the ABKeyboardView as the 'inputAccessory' for the desired UITextView/UITextField. ABKeyboardAccesoryDelegate provides methods which relay information about the current frame of the ABKeyboardAccessory view, where one can adjust UI depending on the keyboard appearance.
                        DESC
 
   s.homepage         = 'https://github.com/andrewboryk/ABKeyboardAccessory'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://github.com/AndrewBoryk/ABKeyboardAccessory/blob/master/ABKeyboardAccessoryScreenshot.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'andrewboryk' => 'aboryk@mercymavericks.edu' }
+  s.author           = { 'andrewboryk' => 'andrewcboryk@gmail.com' }
   s.source           = { :git => 'https://github.com/andrewboryk/ABKeyboardAccessory.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/TrepIsLife'
 
   s.ios.deployment_target = '8.0'
 
