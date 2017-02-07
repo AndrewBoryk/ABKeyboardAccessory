@@ -16,7 +16,7 @@ ABKeyboardAccessory makes it easier to determine when a keyboard is being shown/
                        DESC
 
   s.homepage         = 'https://github.com/andrewboryk/ABKeyboardAccessory'
-  s.screenshots      = 'https://github.com/AndrewBoryk/ABKeyboardAccessory/blob/master/ABKeyboardAccessoryScreenshot.gif'
+  s.screenshots      = 'https://raw.githubusercontent.com/AndrewBoryk/ABKeyboardAccessory/master/ABKeyboardAccessoryScreenshot.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrewboryk' => 'andrewcboryk@gmail.com' }
   s.source           = { :git => 'https://github.com/andrewboryk/ABKeyboardAccessory.git', :tag => s.version.to_s }
